@@ -9,23 +9,23 @@ Summary
 	* [3.1The timing model at a glance](timing-model/the-timing-model-at-a-glance.md)
 		* [3.1.1Stateless](timing-model/stateless.md)
 		* [3.1.2Hierarchical](timing-model/hierarchical.md)
-3.2Timing model concepts
-3.3The global clock
-3.4Timelines
-3.4.1Document timelines
-3.4.2The default document timeline
-3.5Animations
-3.5.1Setting the timeline of a animation
-3.5.2Responding to a newly inactive timeline
-3.5.3Setting the target effect of an animation
-3.5.4The current time of an animation
-3.5.5Setting the current time of an animation
-3.5.6Setting the start time of an animation
-3.5.7Waiting for the target effect
-3.5.8Promise objects
-3.5.9The current ready promise
-3.5.10Playing an animation
-3.5.11Pausing an animation
+    * [3.2Timing model concepts](timing-model/timing-model-concepts.md)
+    * [3.3The global clock](timing-model/the-global-clock.md)
+    * [3.4Timelines](timing-model/timelines.md)
+        * [3.4.1Document timelines](timing-model/document-timelines.md)
+        * [3.4.2The default document timeline](timing-model/the-default-document-timeline.md)
+    * [3.5Animations](timing-model/animations.md)
+        * [3.5.1Setting the timeline of a animation](timing-model/setting-the-timeline-of-a-animation.md)
+        * [3.5.2Responding to a newly inactive timeline](timing-model/responding-to-a-newly-inactive-timeline.md)
+        * [3.5.3Setting the target effect of an animation](timing-model/setting-the-target-effect-of-an-animation.md)
+        * [3.5.4The current time of an animation](timing-model/the-current-time-of-an-animation.md)
+        * [3.5.5Setting the current time of an animation](timing-model/setting-the-current-time-of-an-animation.md)
+        * [3.5.6Setting the start time of an animation](timing-model/setting-the-start-time-of-an-animation.md)
+        * [3.5.7Waiting for the target effect](timing-model/waiting-for-the-target-effect.md)
+        * [3.5.8Promise objects](timing-model/promise-object.md)
+        * [3.5.9The current ready promise](timing-model/the-current-ready-promise.md)
+        * [3.5.10Playing an animation](timing-model/playing-an-animation.md)
+        * [3.5.11Pausing an animation](timing-model/pausing-an-animation.md)
 3.5.12Reaching the end
 3.5.13The current finished promise
 3.5.14Updating the finished state
