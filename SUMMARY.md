@@ -1,43 +1,43 @@
 Summary
 =======
-* [1Introduction](introduction/README.md)
-	* [1.1Use cases](introduction/use-case.md)
-	* [1.2Relationship to other specifications](introduction/relationship-to-other-specifications.md)
-	* [1.3Overview of this specification](introduction/overview-of-this-specification.md)
-* [2Web Animations model overview](overview/README.md)
-* [3Timing model](timing-model/README.md)
-	* [3.1The timing model at a glance](timing-model/the-timing-model-at-a-glance.md)
-		* [3.1.1Stateless](timing-model/stateless.md)
-		* [3.1.2Hierarchical](timing-model/hierarchical.md)
-    * [3.2Timing model concepts](timing-model/timing-model-concepts.md)
-    * [3.3The global clock](timing-model/the-global-clock.md)
-    * [3.4Timelines](timing-model/timelines.md)
-        * [3.4.1Document timelines](timing-model/document-timelines.md)
-        * [3.4.2The default document timeline](timing-model/the-default-document-timeline.md)
-    * [3.5Animations](timing-model/animations.md)
-        * [3.5.1Setting the timeline of a animation](timing-model/setting-the-timeline-of-a-animation.md)
-        * [3.5.2Responding to a newly inactive timeline](timing-model/responding-to-a-newly-inactive-timeline.md)
-        * [3.5.3Setting the target effect of an animation](timing-model/setting-the-target-effect-of-an-animation.md)
-        * [3.5.4The current time of an animation](timing-model/the-current-time-of-an-animation.md)
-        * [3.5.5Setting the current time of an animation](timing-model/setting-the-current-time-of-an-animation.md)
-        * [3.5.6Setting the start time of an animation](timing-model/setting-the-start-time-of-an-animation.md)
-        * [3.5.7Waiting for the target effect](timing-model/waiting-for-the-target-effect.md)
-        * [3.5.8Promise objects](timing-model/promise-object.md)
-        * [3.5.9The current ready promise](timing-model/the-current-ready-promise.md)
-        * [3.5.10Playing an animation](timing-model/playing-an-animation.md)
-        * [3.5.11Pausing an animation](timing-model/pausing-an-animation.md)
-3.5.12Reaching the end
-3.5.13The current finished promise
-3.5.14Updating the finished state
-3.5.15Finishing an animation
-3.5.16Canceling an animation
-3.5.17Speed control
-3.5.17.1Updating the playback rate of an animation
-3.5.18Reversing an animation
-3.5.19Play states
-3.5.20Animation events
-3.5.20.1Types of animation events
-3.5.20.2Event parameters
+* [Introduction](introduction/README.md)
+	* [Use cases](introduction/use-case.md)
+	* [Relationship to other specifications](introduction/relationship-to-other-specifications.md)
+	* [Overview of this specification](introduction/overview-of-this-specification.md)
+* [Web Animations model overview](overview/README.md)
+* [Timing model](timing-model/README.md)
+	* [The timing model at a glance](timing-model/the-timing-model-at-a-glance.md)
+		* [Stateless](timing-model/stateless.md)
+		* [Hierarchical](timing-model/hierarchical.md)
+    * [Timing model concepts](timing-model/timing-model-concepts.md)
+    * [The global clock](timing-model/the-global-clock.md)
+    * [Timelines](timing-model/timelines.md)
+        * [Document timelines](timing-model/document-timelines.md)
+        * [The default document timeline](timing-model/the-default-document-timeline.md)
+    * [Animations](timing-model/animations.md)
+        * [Setting the timeline of a animation](timing-model/setting-the-timeline-of-a-animation.md)
+        * [Responding to a newly inactive timeline](timing-model/responding-to-a-newly-inactive-timeline.md)
+        * [Setting the target effect of an animation](timing-model/setting-the-target-effect-of-an-animation.md)
+        * [The current time of an animation](timing-model/the-current-time-of-an-animation.md)
+        * [Setting the current time of an animation](timing-model/setting-the-current-time-of-an-animation.md)
+        * [Setting the start time of an animation](timing-model/setting-the-start-time-of-an-animation.md)
+        * [Waiting for the target effect](timing-model/waiting-for-the-target-effect.md)
+        * [Promise objects](timing-model/promise-object.md)
+        * [The current ready promise](timing-model/the-current-ready-promise.md)
+        * [Playing an animation](timing-model/playing-an-animation.md)
+        * [Pausing an animation](timing-model/pausing-an-animation.md)
+        * [Reaching the end](timing-model/reaching-the-end.md)
+        * [The current finished promise](timing-model/the-current-finished-promise.md)
+        * [Updating the finished state](timing-model/updating-the-finished-state.md)
+15Finishing an animation
+16Canceling an animation
+17Speed control
+17.1Updating the playback rate of an animation
+18Reversing an animation
+19Play states
+20Animation events
+20.1Types of animation events
+20.2Event parameters
 3.6Animation effects
 3.6.1Relationship between animation effects and animations
 3.6.2Types of animation effects
@@ -91,8 +91,8 @@ Summary
 4.3.3Calculating the result of an effect stack
 4.3.4Effect composition
 4.3.5Applying the composited result
-4.3.5.1Applying the composited result to a CSS property
-4.3.5.2Applying the composited result to a DOM attribute
+4.1Applying the composited result to a CSS property
+4.2Applying the composited result to a DOM attribute
 4.3.6Effect accumulation
 5Programming interface
 5.1 Time values in the programming interface
