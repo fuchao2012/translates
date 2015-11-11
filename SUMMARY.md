@@ -29,106 +29,106 @@ Summary
         * [Reaching the end](timing-model/reaching-the-end.md)
         * [The current finished promise](timing-model/the-current-finished-promise.md)
         * [Updating the finished state](timing-model/updating-the-finished-state.md)
-15Finishing an animation
-16Canceling an animation
-17Speed control
-17.1Updating the playback rate of an animation
-18Reversing an animation
-19Play states
-20Animation events
-20.1Types of animation events
-20.2Event parameters
-3.6Animation effects
-3.6.1Relationship between animation effects and animations
-3.6.2Types of animation effects
-3.6.3The active interval
-3.6.4Local time
-3.6.5Animation effect phases and states
-3.7Fill behavior
-3.7.1Fill modes
-3.8Repeating
-3.8.1Iteration intervals
-3.8.2Controlling iteration
-3.8.3Iteration time space
-3.8.4Interval timing
-3.9Core animation effect calculations
-3.9.1Overview
-3.9.2Calculating the active duration
-3.9.3Transforming the local time
-3.9.3.1Calculating the active time
-3.9.3.2Calculating the scaled active time
-3.9.3.3Calculating the iteration time
-3.9.4Calculating the current iteration
-3.10Direction control
-3.10.1Calculating the directed time
-3.11Time transformations
-3.11.1Scaling the time
-3.11.2Timing functions
-3.11.3Scaling using a cubic Bézier curve
-3.11.4Timing in discrete steps
-3.11.5Calculating the transformed time
-3.11.6Calculating the iteration progress
-4Animation Model
-4.1Keyframe effects
-4.1.1Target properties
-4.1.2Procedures for animating properties
-4.1.3Specific animation behaviors
-4.1.3.1Not animatable
-4.1.3.2Animatable as string
-4.1.3.3Animatable as real number
-4.1.3.4Animatable as length, percentage, or calc
-4.1.3.5Animatable as color
-4.1.3.6Animatable as transform list
-4.1.3.7Other animation behaviors
-4.1.4Effect values
-4.2Keyframes
-4.2.1Spacing keyframes
-4.2.1.1Applying spacing to keyframes
-4.2.2The effect value of a keyframe effect
-4.3Combining effects
-4.3.1Animation types
-4.3.2The effect stack
-4.3.3Calculating the result of an effect stack
-4.3.4Effect composition
-4.3.5Applying the composited result
-4.1Applying the composited result to a CSS property
-4.2Applying the composited result to a DOM attribute
-4.3.6Effect accumulation
-5Programming interface
-5.1 Time values in the programming interface
-5.2The AnimationTimeline interface
-5.3The DocumentTimeline interface
-5.4The Animation interface
-5.4.1The AnimationPlayState enumeration
-5.5The AnimationEffectReadOnly interface
-5.6The AnimationEffectTimingReadOnly interface
-5.7The AnimationEffectTiming interface
-5.8The AnimationEffectTimingProperties dictionary
-5.9The ComputedTimingProperties dictionary
-5.9.1The FillMode enumeration
-5.9.2The PlaybackDirection enumeration
-5.10The KeyframeEffectReadOnly and KeyframeEffect interfaces
-5.10.1Creating a new KeyframeEffect object
-5.10.2Property names and IDL names
-5.10.3Processing a frames argument
-5.10.4The KeyframeEffectOptions dictionary
-5.10.5Computed keyframes
-5.11The IterationCompositeOperation enumeration
-5.12The CompositeOperation enumeration
-5.13The SharedKeyframeList interface
-5.14The Animatable interface
-5.15Extensions to the Document interface
-5.16Extensions to the Element interface
-5.17Extensions to the PseudoElement interface
-5.18The AnimationPlaybackEvent interface
-5.19Model liveness
-6Integration with Media Fragments
-7Interaction with page display
-8Implementation requirements
-8.1Precision of time values
-8.2Conformance criteria
-9Acknowledgements
-10Changes since last publication
+		* [Finishing an animation](timing-model/finishing-an-animation.md)
+    * [Canceling an animation](timing-model/Canceling an animation.md)
+    * [Speed control](timing-model/Speed control.md)
+        * [Updating the playback rate of an animation](timing-model/.1Updating the playback rate of an animation.md)
+    * [Reversing an animation](timing-model/Reversing an animation.md)
+    * [Play states](timing-model/Play states.md)
+    * [Animation events](timing-model/Animation events.md)
+        * [Types of animation events](timing-model/.1Types of animation events.md)
+        * [Event parameters](timing-model/.2Event parameters.md)
+    * [Animation effects](timing-model/Animation effects.md)
+        * [Relationship between animation effects and animations](timing-model/Relationship between animation effects and animations.md)
+        * [Types of animation effects](timing-model/Types of animation effects.md)
+        * [The active interval](timing-model/The active interval.md)
+        * [Local time](timing-model/Local time.md)
+        * [Animation effect phases and states](timing-model/Animation effect phases and states.md)
+    * [Fill behavior](timing-model/Fill behavior.md)
+      * [Fill modes](timing-model/Fill modes.md)
+    * [Repeating](timing-model/Repeating.md)
+        * [.1Iteration intervals](timing-model/.1Iteration intervals.md)
+        * [.2Controlling iteration](timing-model/.2Controlling iteration.md)
+        * [.3Iteration time space](timing-model/.3Iteration time space.md)
+        * [.4Interval timing](timing-model/.4Interval timing.md)
+    * [Core animation effect calculations](timing-model/Core animation effect calculations.md)
+        * [verview](timing-model/verview.md)
+        * [.2Calculating the active duration](timing-model/.2Calculating the active duration.md)
+        * [.3Transforming the local time](timing-model/.3Transforming the local time.md)
+        * [.3.1Calculating the active time](timing-model/.3.1Calculating the active time.md)
+        * [.3.2Calculating the scaled active time](timing-model/.3.2Calculating the scaled active time.md)
+        * [.3.3Calculating the iteration time](timing-model/.3.3Calculating the iteration time.md)
+        * [.4Calculating the current iteration](timing-model/.4Calculating the current iteration.md)
+        * [0Direction control](timing-model/0Direction control.md)
+        * [0.1Calculating the directed time](timing-model/0.1Calculating the directed time.md)
+      * [1Time transformations](timing-model/1Time transformations.md)
+      * [1.1Scaling the time](timing-model/1.1Scaling the time.md)
+      * [1.2Timing functions](timing-model/1.2Timing functions.md)
+      * [1.3Scaling using a cubic Bézier curve](timing-model/1.3Scaling using a cubic Bézier curve.md)
+      * [1.4Timing in discrete steps](timing-model/1.4Timing in discrete steps.md)
+      * [1.5Calculating the transformed time](timing-model/1.5Calculating the transformed time.md)
+      * [1.6Calculating the iteration progress](timing-model/1.6Calculating the iteration progress.md)
+      * [4Animation Model](/4Animation Model.md)
+    * [4.1Keyframe effects](/4.1Keyframe effects.md)
+    * [4.1.1Target properties](/4.1.1Target properties.md)
+    * [4.1.2Procedures for animating properties](/4.1.2Procedures for animating properties.md)
+    * [4.1.3Specific animation behaviors](/4.1.3Specific animation behaviors.md)
+    * [4.1.3.1Not animatable](/4.1.3.1Not animatable.md)
+    * [4.1.3.2Animatable as string](/4.1.3.2Animatable as string.md)
+    * [4.1.3.3Animatable as real number](/4.1.3.3Animatable as real number.md)
+    * [4.1.3.4Animatable as length, percentage, or calc](/4.1.3.4Animatable as length, percentage, or calc.md)
+    * [4.1.3.5Animatable as color](/4.1.3.5Animatable as color.md)
+    * [4.1.3.6Animatable as transform list](/4.1.3.6Animatable as transform list.md)
+    * [4.1.3.7Other animation behaviors](/4.1.3.7Other animation behaviors.md)
+    * [4.1.4Effect values](/4.1.4Effect values.md)
+    * [4.2Keyframes](/4.2Keyframes.md)
+    * [4.2.1Spacing keyframes](/4.2.1Spacing keyframes.md)
+    * [4.2.1.1Applying spacing to keyframes](/4.2.1.1Applying spacing to keyframes.md)
+    * [4.2.2The effect value of a keyframe effect](/4.2.2The effect value of a keyframe effect.md)
+    * [4.3Combining effects](/4.3Combining effects.md)
+    * [4.3.1Animation types](/4.3.1Animation types.md)
+    * [4.3.2The effect stack](/4.3.2The effect stack.md)
+    * [4.3.3Calculating the result of an effect stack](/4.3.3Calculating the result of an effect stack.md)
+    * [4.3.4Effect composition](/4.3.4Effect composition.md)
+    * [4.3.5Applying the composited result](/4.3.5Applying the composited result.md)
+    * [4.1Applying the composited result to a CSS property](/4.1Applying the composited result to a CSS property.md)
+    * [4.2Applying the composited result to a DOM attribute](/4.2Applying the composited result to a DOM attribute.md)
+    * [4.3.6Effect accumulation](/4.3.6Effect accumulation.md)
+    * [5Programming interface](/5Programming interface.md)
+    * [5.1 Time values in the programming interface](/5.1 Time values in the programming interface.md)
+    * [5.2The AnimationTimeline interface](/5.2The AnimationTimeline interface.md)
+    * [5.3The DocumentTimeline interface](/5.3The DocumentTimeline interface.md)
+    * [5.4The Animation interface](/5.4The Animation interface.md)
+    * [5.4.1The AnimationPlayState enumeration](/5.4.1The AnimationPlayState enumeration.md)
+    * [5.5The AnimationEffectReadOnly interface](/5.5The AnimationEffectReadOnly interface.md)
+    * [5.6The AnimationEffectTimingReadOnly interface](/5.6The AnimationEffectTimingReadOnly interface.md)
+    * [5.7The AnimationEffectTiming interface](/5.7The AnimationEffectTiming interface.md)
+    * [5.8The AnimationEffectTimingProperties dictionary](/5.8The AnimationEffectTimingProperties dictionary.md)
+    * [5.9The ComputedTimingProperties dictionary](/5.9The ComputedTimingProperties dictionary.md)
+    * [5.9.1The FillMode enumeration](/5.9.1The FillMode enumeration.md)
+    * [5.9.2The PlaybackDirection enumeration](/5.9.2The PlaybackDirection enumeration.md)
+    * [5.10The KeyframeEffectReadOnly and KeyframeEffect interfaces](/5.10The KeyframeEffectReadOnly and KeyframeEffect interfaces.md)
+    * [5.10.1Creating a new KeyframeEffect object](/5.10.1Creating a new KeyframeEffect object.md)
+    * [5.10.2Property names and IDL names](/5.10.2Property names and IDL names.md)
+    * [5.10.3Processing a frames argument](/5.10.3Processing a frames argument.md)
+    * [5.10.4The KeyframeEffectOptions dictionary](/5.10.4The KeyframeEffectOptions dictionary.md)
+    * [5.10.5Computed keyframes](/5.10.5Computed keyframes.md)
+    * [5.11The IterationCompositeOperation enumeration](/5.11The IterationCompositeOperation enumeration.md)
+    * [5.12The CompositeOperation enumeration](/5.12The CompositeOperation enumeration.md)
+    * [5.13The SharedKeyframeList interface](/5.13The SharedKeyframeList interface.md)
+    * [5.14The Animatable interface](/5.14The Animatable interface.md)
+    * [5.15Extensions to the Document interface](/5.15Extensions to the Document interface.md)
+    * [5.16Extensions to the Element interface](/5.16Extensions to the Element interface.md)
+    * [5.17Extensions to the PseudoElement interface](/5.17Extensions to the PseudoElement interface.md)
+    * [5.18The AnimationPlaybackEvent interface](/5.18The AnimationPlaybackEvent interface.md)
+    * [5.19Model liveness](/5.19Model liveness.md)
+    * [6Integration with Media Fragments](/6Integration with Media Fragments.md)
+    * [7Interaction with page display](/7Interaction with page display.md)
+    * [8Implementation requirements](/8Implementation requirements.md)
+    * [8.1Precision of time values](/8.1Precision of time values.md)
+    * [8.2Conformance criteria](/8.2Conformance criteria.md)
+    * [9Acknowledgements](/9Acknowledgements.md)
+    * [10Changes since last publication](/10Changes since last publication.md)
 Conformance
 Document conventions
 Index
